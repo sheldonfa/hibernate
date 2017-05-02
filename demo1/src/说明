@@ -1,0 +1,9 @@
+demo1       hibernate跑通
+
+技术点：
+1、配置文件hibernate.cfg.xml中，
+2、User.hbm.xml映射文件
+3、手动开启事务，手动提交事务
+
+爬坑：
+1、引入hibernate的包，还需要引入javassist包
