@@ -1,0 +1,12 @@
+demo2       api详解
+技术点
+1、要想使用getCurrentSession获取到当前线程绑定的session，需要配置<property name="hibernate.current_session_context_class">thread</property>
+2、主键生成策略配置
+重点：
+3、getCurrentSession和openSession的区别
+4、查询方法get和load的区别
+5、createQuery的简单使用
+6、createCriteria的条件查询
+7、事务与session的关系，当事务提交时，session关闭
+
+

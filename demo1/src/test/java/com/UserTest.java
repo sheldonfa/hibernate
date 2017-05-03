@@ -19,8 +19,11 @@ public class UserTest {
         user.setName("张三");
         user.setPassword("123456");
 
+        // 加载配置文件，获取配置对象
         Configuration configure = new Configuration().configure();
+        // 创建session工厂
         SessionFactory sessionFactory = configure.buildSessionFactory();
+        // 创建session
         Session session = sessionFactory.openSession();
         // 手动开启事务
         Transaction transaction = session.beginTransaction();

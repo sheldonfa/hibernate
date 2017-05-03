@@ -1,0 +1,11 @@
+demo1       hibernate跑通
+
+技术点：
+1、配置文件hibernate.cfg.xml
+2、User.hbm.xml映射文件
+3、手动开启事务，手动提交事务
+4、两个配置文件的头分别在hibernate-configuration-3.0.dtd和hibernate-mapping-3.0.dtd
+
+爬坑：
+1、引入hibernate的包，还需要引入javassist包
+2、不要忘了在配置文件中，添加映射文件
